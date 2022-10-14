@@ -128,7 +128,12 @@ text-align: center;
   text-align: center;
 	padding-bottom: 4%;
 }
-
+.blog-card:hover{
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
+  }
 
 .h23{
 font-size: 140%;
