@@ -192,6 +192,9 @@ color: rgb(0, 0, 0);
   .flecha1{
     height: 80px;
   }
+	.lista{
+text-align:none;
+}
   .espacio h1{
     font-size: 200%;
     color: rgb(0, 0, 0);
