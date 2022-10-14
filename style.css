@@ -193,7 +193,7 @@ color: rgb(0, 0, 0);
     height: 80px;
   }
 	.lista{
-text-align:none;
+text-align:left;
 }
   .espacio h1{
     font-size: 200%;
