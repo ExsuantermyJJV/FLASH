@@ -1,10 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
 
+.review .box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.review .box-container .box {
+  width: 38rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .3);
+  background: #141414a2;
+  margin: 4rem 2rem;
+}
+
+.review .box-container .box img {
+  height: 8.5rem;
+  width: 8.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -4rem;
+  border: .6rem solid #ffc246;
+  border-left: .6rem solid #ffc246;
+  border-bottom: .6rem solid #ffc246;
+}
+
+.review .box-container .box h3 {
+  font-size: 2rem;
+  color: #f9580e;
+  padding: 0 .5rem;
+}
+
+.review .box-container .box p {
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 1.3rem .1rem;
+}
+
+.review .box-container .box .stars i {
+  font-size: 1.6rem;
+  color: #ffc246;
+  padding: 1.3rem .1rem;
+}
+
+
 /*------------cartas---------*/
 .span1{
-	text-aling:center;
+text-align: center;
 	}
-
+  
+.subti{
+  font-size: 12px;
+  color: red;
+}
 
 .blog-card {
   display: flex;
@@ -81,7 +131,7 @@
 
 
 .h23{
-font-size: 120%;
+font-size: 140%;
 color: black;
 	padding-bottom: 3%;
 }
@@ -1024,13 +1074,6 @@ button a{
   background: linear-gradient(0deg, #017AB1, #01ABE6);
 }
 
-#main-button ~ .whatsapp-color {
-  background: linear-gradient(0deg, #00B100, #09db09);
-}
-
-#main-button ~ .messenger-color {
-  background: linear-gradient(0deg, #ff0000, #ff0000);
-}
 
 #main-button.open ~ a {
   opacity: 1;
