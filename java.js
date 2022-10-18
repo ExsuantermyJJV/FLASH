@@ -41,4 +41,24 @@ let countDown = new Date('oct 23, 2022 16:38:00').getTime(),
 
     }, second)
 
+
+
+   const secondd = 1000,
+      minutee = secondd * 60,
+      hourr = minutee * 60,
+      dayy = hourr * 24;
+
+let countDow = new Date('oct 23, 2022 16:38:00').getTime(),
+    y = setInterval(function() {
+
+      let now = new Date().getTime(),
+          distance = countDown - now;
+
+      document.getElementById('diass').innerText = Math.floor(distance / (dayy)),
+        document.getElementById('horass').innerText = Math.floor((distance % (dayy)) / (hourr)),
+        document.getElementById('minutoss').innerText = Math.floor((distance % (hourr)) / (minutee)),
+        document.getElementById('segundoss').innerText = Math.floor((distance % (minutee)) / secondd);
+
+    }, second)
+
     
