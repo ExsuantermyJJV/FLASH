@@ -1,5 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
 
+
+
+/* servicios */
+.services .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.services .box-container .box {
+  background: none;
+  padding: 3rem;
+  text-align: center;
+}
+
+.services .box-container .box:hover {
+  border-radius: .5rem;
+}
+
+
+.services .box-container .box p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 1rem 0;
+
+}
+.services .box-container .box h3 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  padding: 1rem 0;
+
+}
+
+.serviciofoto{
+  height: 24em;
+  padding: 10px;
+}
+
+
+
 .review .box-container {
   display: flex;
   justify-content: center;
@@ -212,6 +254,11 @@ text-decoration: line-through;
 /*------------cartas---------*/
 /*testimonios */
 .flecha1{
+  display: flex;
+  margin: auto;
+}
+
+.respon{
   display: flex;
   margin: auto;
 }
@@ -873,12 +920,26 @@ background-color: #000000;
     line-height: 1.3;
     
   }
+
+  .about .content h2 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+padding-bottom: 3%
+    
+  }
+  .about .content h1 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+padding-bottom: 5%;
+padding-top: 3%;
+  }
+
   .about .content1 p {
     font-size: 2rem;
     color: rgb(255, 255, 255);
-    padding: 1rem 0;
-    line-height: 2;
-    
+    padding: 1rem 0;    
   }
 
 /* fin segundo cuadro*/
