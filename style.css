@@ -1,6 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
+.about1 .content1 h2 {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+padding-bottom: 3%
+  
+}
+.about1 {
+    
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about1 .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+
+.about1 .image img {
+  width: 100%;
+}
+
+.about1 .content1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+
+.about1 .content1 h3 {
+  color: #ffffff;
+  font-size: 3.8rem;
+  text-align:center;
+}
+
+.about1 .content1 h3 span {
+  color: #00d9ff;
+}
+.about1 .content1 p span {
+  color: #00d9ff;
+}
+
+.about1 .content1 p {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 0;
+
+}
+
+/* */
 
 /* servicios */
 .services .box-container {
