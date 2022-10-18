@@ -392,7 +392,7 @@ text-align:left;
 .responsivo2 {
   display: inline-block
 }
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   
   .contenedor {
     margin-top: 15%;
@@ -401,14 +401,15 @@ text-align:left;
    margin-bottom: 30px; 
   }
   .cartel {
-    height: 99px;
-    width: 99px;
+    height: 70px;
+    width: 80px;
+    padding-bottom: 40%;
   }
   .cartel>div{
     font-size: 45px;
   }
   .cartel>div>h3 {
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 0px;
   }
 
