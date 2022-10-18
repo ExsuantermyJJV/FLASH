@@ -836,15 +836,16 @@ justify-content: center;
     text-align: center;
     font-size: 3.5rem;
     color:#fffb00;
-padding-left: 10%;
-padding-right: 10%;
   }
   .heading1 {
     padding-bottom: 2rem;
     text-align: center;
     font-size: 3.5rem;
     color:white;
+	  padding-left: 10%;
+padding-right: 10%;
   }
+
   .heading2 {
     padding-bottom: 2rem;
     text-align: center;
