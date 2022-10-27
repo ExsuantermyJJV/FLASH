@@ -879,10 +879,11 @@ body {
 }
 
   body{
-    background-image: url('https://us.123rf.com/450wm/gubh83/gubh831309/gubh83130900050/22067708-palo-de-halloween-negro-fondo-de-papel.jpg');
+    background-image: url('img/fondohallowen.webp');
   }
-.home{
-    background-image: url('https://us.123rf.com/450wm/gubh83/gubh831309/gubh83130900050/22067708-palo-de-halloween-negro-fondo-de-papel.jpg');
+
+  .home{
+    background-image: url('img/fondohallowen.webp');
   }
 
   .content{
