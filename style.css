@@ -837,6 +837,7 @@ justify-content: center;
     text-align: center;
     font-size: 3.5rem;
     color:#fffb00;
+	background: black;
   }
   .heading1 {
     padding-bottom: 2rem;
@@ -845,6 +846,7 @@ justify-content: center;
     color:white;
 	  padding-left: 10%;
 padding-right: 10%;
+	  background: black;
   }
 
   .heading2 {
