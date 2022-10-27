@@ -640,6 +640,7 @@ font-size: 1.3vh;
    border-bottom: 2px solid  #e5ff00;
     padding-bottom: 1em;
     color: #ffffff;
+	  background: #0000008a;
   }
   .cabAcordeon h2:hover{
     color: #e5ff00;
@@ -660,6 +661,7 @@ font-size: 1.3vh;
     color: #ffffff;
     font-weight: 700;
     font-size: 1.7vh;
+	  background: #0000008a;
   }
   .animacionContenido{
     height:0;
@@ -872,6 +874,19 @@ html {
 body {
     background-color: #000000;
 }
+
+  body{
+    background-image: url('https://depor.com/resizer/Nbp7hFxJICEP-MBa91fGne69Bwk=/620x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/OT4WA2VSKFAZTGGQX4UF6M35TM.jpg');
+  }
+
+
+  .content{
+    background: #000000c4;
+  }
+  .content1{
+    background: #000000c4;
+  }
+
 /* contenido alterno - body */
 
 
@@ -1230,7 +1245,7 @@ button a{
 
 .footer {
     text-align: center;
-   
+    background: #000000;
 }
 .footer h4{
     font-size: 150%;
