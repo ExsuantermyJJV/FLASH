@@ -878,7 +878,9 @@ body {
   body{
     background-image: url('https://depor.com/resizer/Nbp7hFxJICEP-MBa91fGne69Bwk=/620x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/OT4WA2VSKFAZTGGQX4UF6M35TM.jpg');
   }
-
+.home{
+    background-image: url('https://depor.com/resizer/Nbp7hFxJICEP-MBa91fGne69Bwk=/620x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/OT4WA2VSKFAZTGGQX4UF6M35TM.jpg');
+  }
 
   .content{
     background: #000000c4;
