@@ -879,16 +879,17 @@ body {
 }
 
   body{
-    background-image: url('img/fondohallowen.webp');
+    background-image: url('');
   }
 
   .home{
-    background-image: url('img/fondohallowen.webp');
+    background-image: url('');
   }
 
  .home2{
-    background-image: url('img/fondohallowen.webp');
+    background-image: url('');
   }
+
   .box-container1  .box1 h3{
     background-color: #000000;
   }
